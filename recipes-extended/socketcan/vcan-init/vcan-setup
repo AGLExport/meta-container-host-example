@@ -1,0 +1,6 @@
+#!/bin/sh
+
+LXC_VCAN_DEV="vcan0"
+
+ip link add dev $LXC_VCAN_DEV type vcan
+ip link set $LXC_VCAN_DEV up
