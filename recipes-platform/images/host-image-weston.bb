@@ -11,5 +11,5 @@ REQUIRED_DISTRO_FEATURES = "wayland"
 CORE_IMAGE_BASE_INSTALL += "weston weston-init weston-examples"
 
 
-IMAGE_INSTALL_append = " packagegroup-container-host "
+IMAGE_INSTALL_append = " packagegroup-container-host vcan-init nano "
 

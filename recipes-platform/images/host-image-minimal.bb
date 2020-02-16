@@ -8,6 +8,6 @@ LICENSE = "MIT"
 
 inherit core-image
 
-IMAGE_INSTALL_append = " packagegroup-container-host "
+IMAGE_INSTALL_append = " packagegroup-container-host vcan-init "
 
 
